@@ -1,0 +1,46 @@
+1.LIST
+
+2.FUNCTIONS OF LIST--
+append()- add one value
+extend()- add multiple values
+insert()-L.insert(1,22)-insert 22 in index 1
+remove-with value
+pop-with index
+clear
+index
+count
+sort- ascending order and work on only numbers
+reverse
+copy
+
+3. list comprehension
+ 1.numbers=[elements for elements in "great afternoon"]
+print(numbers) 
+#can create list using existing list 
+  2.L=["hyd","vizag" , "chennai" , "vijayawada"]
+city=[]
+for n in L:
+   if "v" in n:
+      city.append(n)
+print(city)
+    3. L1=[2**x for x in range(2,10)]
+print(L1)
+L2=[a for a in range(100,201,20)
+print(L2)
+L3=[1,2,3,4,5,6]
+L4=[i for i in L3 if (i<5)]
+print(L4)
+
+4. SET--
+   ss={1,1,1,1,2,2,2}
+   print(ss)
+   {1,2}
+   -- ss.add()-- add one value
+   -- ss.update()-- add multiple values
+   -- ss.discard()--gives no error if element is not present
+   -- ss.remove()-- gives error if element is not present
+   union--(s1|s2) 
+   intersect--(s1&s2)
+   difference-- (s1-s2)
+
+   
